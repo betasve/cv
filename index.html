@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Svetoslav Blyahov - CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+        }
+        left {
+        	width: 20%;
+        }
+        
+        right {
+        	width: 80%;
+        }
+        
+        header h1 {
+            margin: 0;
+        }
+        section, sidebar {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        .skills, .languages {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .skills {
+        	width: 32%;
+        }
+        
+        .skills li, .languages li {
+            background: #ecf0f1;
+            margin-bottom: 5px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .skills li i {
+            margin-right: 10px;
+        }
+        
+        .skills li span {
+        	float: right;
+        }
+        
+        sidebar {
+            background: #ecf0f1;
+            padding: 10px;
+            float: right;
+            width: 30%;
+        }
+        
+        .skills-section {
+        	display: flex;
+        	flex-direction: row;
+        	flex-grow: 1;
+        	justify-content: space-between;
+        	flex-wrap: wrap;
+        }
+        
+        .professional {
+        	display: flex;
+        	flex-direction: row;
+        	flex-wrap: wrap;
+        	justify-content: space-between;
+        }
+        
+        additional {
+        	background-color: #ecf0f1;
+        	padding: 10px;
+        	display: block;
+        }
+        
+        additional h4 {
+        	margin-left: 26px;
+        }
+        
+        .commenter {
+        	font-style: italic;
+        	color: #2c3e50;
+        }
+        
+        .period {
+        	font-style: italic;
+        	margin-top: 0px;
+        }
+        
+        i.fa-comment {
+        	color: #2c3e50;
+        }
+        
+        @media only screen and (max-width: 1445px) {
+        	.skills { font-size: 14px; }
+        }
+        
+        @media only screen and (max-width: 1235px) {
+        	sidebar {
+            	float: left;
+            	width: 100%;
+        	}
+        	professional { width: 100%; }
+        	.skills {
+        		width: 100%;
+        	}
+        }
+        
+        @media print {
+        	sidebar {
+        		width: 100%;
+        	}
+        }
+        
+        .position {
+        	display: inline;
+        	margin: 0px;
+        }
+        
+        .position-holder {
+        	display: flex;
+        	margin-top: 20px;
+        }
+        
+        .position-holder img {
+        	margin-left: 10px;
+        }
+        
+        left {
+        	display: flex;
+        	height: 80%;
+        }
+        
+        .tech {
+        	width: 20px;
+        	height: 20px;
+        }
+        
+        .profile-picture {
+        	width: 150px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            font-size: 0.9em;
+            color: #555;
+            border-top: 1px solid #ddd;
+        }
+        footer a {
+            text-decoration: none;
+            color: #0077b5;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+        	<left>
+        		<img class="profile-picture" src="images/profile.png"/>
+        	</left>
+        	<right>
+	            <h1>Svetoslav Blyahov</h1>
+    	        <p>Senior Back-End Engineer | Expert in Ruby on Rails</p>
+    	    </right>
+        </header>
+
+        <section>
+            <h2>Professional Summary</h2>
+            <p>Experienced Back-End Engineer with a strong background in <strong>Ruby on Rails</strong> and <strong>microservices architecture</strong>. Skilled in designing distributed systems, API development, and containerization using <strong>Docker</strong>. A proactive team player, recognized for delivering high-quality solutions and contributing to open-source projects like <strong>Hyperledger</strong>. Currently exploring a transition to <strong>Golang</strong> and <strong>Web3</strong>.</p>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <div class="skills-section">
+		        <ul class="skills">
+		            <li><i class="fa-solid fa-gem"></i> Ruby on Rails <span>11+ years</span></li>
+		            <li><i class="fa-brands fa-golang"></i> Golang (actively learning)<span>>1y</span></li>
+   		            <li><i class="fa-brands fa-js"></i> Javascript<span>3y</span></li>
+		            <li><i class="fa-solid fa-database"></i> PosgreSQL<span>7y</span></li>
+
+		            
+		        </ul>
+			    <ul class="skills">
+		            <li><i class="fa-brands fa-docker"></i> Docker<span>6y</span></li>
+  		            <li><i class="fa-solid fa-cube"></i> Kubernetes<span>2y</span></li>
+		            <li><i class="fas fa-network-wired"></i> Microservices Architecture<span>6y</span></li>			    
+			    	<li><i class="fas fa-server"></i> Distributed Systems<span>6y</span></li>
+
+		        </ul>
+		        <ul class="skills">
+		            <li><i class="fas fa-plug"></i> API Development & Integration<span>8y</span></li>
+		            <li><i class="fas fa-tools"></i> CI/CD - GitHub Actions<span>4y</span></li>
+		            <li><i class="fas fa-wrench"></i> DevOps Practices<span>2y</span></li>
+		            <li><i class="fas fa-project-diagram"></i> Project Management (PRINCE2 Certified)<span>8y</span></li>
+		        </ul>
+	        </div>
+        </section>
+
+        <section class="professional">
+        	<professional>
+		        <h2>Professional Experience</h2>
+		        <div class="position-holder">
+		        	<h3 class="position"><strong>Senior Back-End Engineer</strong> |</h3><img src="images/toptal.png" width="100px" alt="Toptal"/>
+				</div>
+		        <p class="period">December 2019 – October 2024</p>
+		        <ul>
+		            <li>Extracted a monolith into microservices (using Kafka as message queue).</li>
+		            <li>Developed developer tools, integrated tracking tools like Sentry, Datadog, and New Relic.</li>
+		            <li>Ran PoC projects for containerization and modularization strategies.</li>
+		            <li>Dockerized services, optimizing for performance and image size.</li>
+		            <li>Created CI/CD pipelines with GitHub Actions and integrated Jenkins.</li>
+		            <li>Worked on high-impact internal projects with high visibility.</li>
+		            <li>Integrated third-party services such as Slack, Zendesk, and OpenAI.</li>
+		        </ul>
+		        <additional>
+				    <h4>Additional responsibilities:</h4>
+				    <ul>
+					    <li>Initiatives leader - documenting and steering the R&D process.</li>
+				    	<li>Being a Scrum Master - leading Scrum rituals</li>
+				    	<li>An interrim Team Lead - Taking on the management responsibilities</li>
+				    	<li>Lead of talent interviews - Assessing candidate's skills and technical knowledge</li>
+				    </ul>
+		        </additional>
+
+		        <div class="position-holder">
+		        	<h3 class="position"><strong>Back-End Engineer</strong> |</h3><img src="images/qaiware.png" width="100px" alt="Qaiware"/>
+		        </div>
+		        <p class="period">September 2018 – December 2019</p>
+		        <ul>
+		            <li>Lead a small team and developed a Java Spring-based API for a translation agency.</li>
+		            <li>Used technologies like Java 11, Spring, VueJS, ReactJS, and Docker.</li>
+		        </ul>
+
+		        <div class="position-holder">
+		        	<h3 class="position"><strong>Back-End Engineer</strong> |</h3><img src="images/tradeo.png" width="100px" alt="Tradeo"/>
+		        </div>
+		        <p class="period">February 2016 – September 2018</p>
+		        <ul>
+		            <li>Developed back-end APIs for a social trading platform using Ruby on Rails.</li>
+		            <li>Worked with ReactJS, Redux, and NodeJS for front-end integration.</li>
+		        </ul>
+            </professional>
+            <sidebar>
+				<h2>Side Projects</h2>
+				<p><strong><i class="fa-solid fa-list"></i> Golang CLI To-Do App:</strong><br/>
+				Since I want to transition to using Go, I decided to build a side project to train my skills on. I decided to do a variation of the standard intro project: To-Do app. It is a Command Line Interface tool. I decided to use Microsoft's <a href="https://learn.microsoft.com/en-us/graph/todo-concept-overview#api-reference" target="_blank">ToDo API</a> so the app is more full and diverse. You can read more and install it by following this <a href="http://github.com/betasve/mstd" target="_blank">install guide</a>.</p>
+				<p><strong><i class="fa-solid fa-link"></i> Hyperledger Contributions</strong><br/>
+					<a href="https://www.hyperledger.org/" target="_blank">Hyperledger</a> (or the Hyperledger Project) is an umbrella project of open source blockchains and related tools that the Linux Foundation[1] started in December 2015. IBM, Intel, and SAP Ariba have contributed to support the collaborative development of blockchain-based distributed ledgers. It was renamed the Hyperledger Foundation in October 2021.<br/>
+					I have some few minor contributions to the repo, but I spent considerable time looking into the Go code there, figuring out how the configuration and the architecture works.</p>
+			</sidebar>
+        </section>
+
+        <section>
+            <h2>Recommendations</h2>
+            <p>"Svetoslav's technical skills and attention to detail consistently stood out. He took the lead on some of our most complex backend initiatives, and his ability to tackle difficult problems while collaborating with multiple teams made a real difference. Whether it was guiding the team through sophisticated encryption effort or contributing to high-priority tasks, Svetoslav always delivered clear, well-thought-out solutions that drove the success of our projects." - <i class="fa-solid fa-comment"></i> <span class="commenter">Engineering Manager at Toptal</span></p>
+            <p>"I’ve worked with Svetoslav across different teams and squads, so I’ve seen his performance in all kinds of situations over the years. No matter the context, he’s someone you can always rely on. He doesn’t give up and keeps working until he finds a solution that works for everyone. He’s calm under pressure and always up for tackling any challenge, no matter how complex. If you get the chance to work with him, don’t miss out!" - <i class="fa-solid fa-comment"></i> <span class="commenter">Director of Engineering at Toptal</span></p>
+            <p>"Sve was our go-to expert whenever we had tricky personal data encryption questions, e.g. about envelope encryption.
+I know him as a highly knowledgeable expert and a professional with whom it's easy and efficient to discuss any technical matter." - <i class="fa-solid fa-comment"></i> <span class="commenter">Former Colleague at Toptal</span></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>For more information, visit my <a href="http://linkedin.com/in/sve" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn profile</a>.</p>
+    </footer>
+
+</body>
+</html>
+
