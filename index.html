@@ -44,6 +44,8 @@
         h2 {
             color: #2c3e50;
         }
+
+        h5 { padding-left: 10px; }
         .skills, .languages {
             list-style: none;
             padding: 0;
@@ -69,9 +71,9 @@
         
         sidebar {
             background: #ecf0f1;
-            padding: 10px;
+            padding: 0px 30px;
             float: right;
-            width: 30%;
+            width: 40%;
         }
         
         .skills-section {
@@ -85,8 +87,12 @@
         .professional {
         	display: flex;
         	flex-direction: row;
-        	flex-wrap: wrap;
         	justify-content: space-between;
+        }
+
+        .professional professional {
+            padding-right: 20px;
+            max-width: 60%;
         }
         
         additional {
@@ -154,7 +160,7 @@
         
         .position-holder {
         	display: flex;
-        	margin-top: 20px;
+        	margin-top: 40px;
         }
         
         .position-holder img {
@@ -197,20 +203,20 @@
         	</left>
         	<right>
 	            <h1>Svetoslav Blyahov</h1>
-    	        <p>Senior Back-End Engineer | Expert in Ruby on Rails</p>
+    	        <p>Senior Back-End Engineer</p>
     	    </right>
         </header>
 
         <section>
             <h2>Professional Summary</h2>
-            <p>Experienced Back-End Engineer with a strong background in <strong>Ruby on Rails</strong> and <strong>microservices architecture</strong>. Skilled in designing distributed systems, API development, and containerization using <strong>Docker</strong>. A proactive team player, recognized for delivering high-quality solutions and contributing to open-source projects like <strong>Hyperledger</strong>. Currently exploring a transition to <strong>Golang</strong> and <strong>Web3</strong>.</p>
+            <p>Experienced Back-End Engineer with a strong background in <strong>Ruby on Rails</strong> and <strong>microservices architecture</strong>. Skilled in designing distributed systems, API development, and containerization using <strong>Docker</strong>. A proactive team player, recognized for delivering high-quality solutions. Currently exploring a transition to <strong>Golang</strong> and <strong>Web3</strong>.</p>
         </section>
 
         <section>
             <h2>Skills</h2>
             <div class="skills-section">
 		        <ul class="skills">
-		            <li><i class="fa-solid fa-gem"></i> Ruby on Rails <span>11+ years</span></li>
+		            <li><i class="fa-solid fa-gem"></i> Ruby on Rails <span>12+ years</span></li>
 		            <li><i class="fa-brands fa-golang"></i> Golang (actively learning)<span>>1y</span></li>
    		            <li><i class="fa-brands fa-js"></i> Javascript<span>3y</span></li>
 		            <li><i class="fa-solid fa-database"></i> PosgreSQL<span>7y</span></li>
@@ -236,28 +242,135 @@
         <section class="professional">
         	<professional>
 		        <h2>Professional Experience</h2>
-		        <div class="position-holder">
-		        	<h3 class="position"><strong>Senior Back-End Engineer</strong> |</h3><img src="images/toptal.png" width="100px" alt="Toptal"/>
-				</div>
-		        <p class="period">December 2019 – October 2024</p>
-		        <ul>
-		            <li>Extracted a monolith into microservices (using Kafka as message queue).</li>
-		            <li>Developed developer tools, integrated tracking tools like Sentry, Datadog, and New Relic.</li>
-		            <li>Ran PoC projects for containerization and modularization strategies.</li>
-		            <li>Dockerized services, optimizing for performance and image size.</li>
-		            <li>Created CI/CD pipelines with GitHub Actions and integrated Jenkins.</li>
-		            <li>Worked on high-impact internal projects with high visibility.</li>
-		            <li>Integrated third-party services such as Slack, Zendesk, and OpenAI.</li>
-		        </ul>
-		        <additional>
-				    <h4>Additional responsibilities:</h4>
-				    <ul>
-					    <li>Initiatives leader - documenting and steering the R&D process.</li>
-				    	<li>Being a Scrum Master - leading Scrum rituals</li>
-				    	<li>An interrim Team Lead - Taking on the management responsibilities</li>
-				    	<li>Lead of talent interviews - Assessing candidate's skills and technical knowledge</li>
-				    </ul>
-		        </additional>
+                <div class="position-holder">
+                    <h3 class="position"><strong>Senior Software Engineer (Back-End)</strong> | BetaSve Ltd. (contractor)</h3>
+                </div>
+
+                <p class="period">Jan 2025 – present </p>
+
+                <h4 class="section-title">Core Responsibilities</h4>
+                <p>
+                    I work as an independent contractor for third-party companies, continuing my focus on backend engineering with Ruby, specializing in API development, system integrations, and service-oriented architectures.
+
+                    Building on my experience at Toptal, I contribute to the design and implementation of scalable, maintainable backend systems, collaborate closely with product and engineering teams, and deliver production-ready solutions aligned with business goals. My work typically involves integrating external platforms and services, improving existing APIs, and supporting the evolution of distributed systems with a strong emphasis on reliability, clarity, and long-term maintainability.
+                </p>
+
+                <div class="position-holder">
+                    <h3 class="position"><strong>Senior Software Engineer (Back-End)</strong> |</h3>
+                    <img src="images/toptal.png" width="100px" alt="Toptal" />
+                </div>
+
+                <p class="period">December 2019 – October 2024</p>
+                <h4 class="section-title">Core Responsibilities &amp; Contributions</h4>
+                <h5 class="subsection-title">Backend Development &amp; Architecture</h5>
+                <ul>
+                    <li>
+                        Designed, developed, and maintained backend services using <strong>Ruby</strong>, with a strong focus on
+                        clean architecture, scalability, and long-term maintainability;
+                    </li>
+                    <li>
+                        Played a key role in extracting functionality from a monolithic system into independent microservices,
+                        using <strong>Kafka</strong> for asynchronous messaging and inter-service communication;
+                    </li>
+                    <li>
+                        Contributed to architectural improvements and modularization efforts aimed at reducing coupling
+                        and improving system evolvability.
+                    </li>
+                </ul>
+
+                <h5 class="subsection-title">Distributed Systems &amp; Infrastructure</h5>
+                <ul>
+                    <li>
+                        Containerized services using <strong>Docker</strong>, optimizing image size and build times;
+                    </li>
+                    <li>
+                        Supported teams in running services reliably in distributed and containerized environments;
+                    </li>
+                    <li>
+                        Participated in research and proof-of-concept initiatives exploring containerization strategies,
+                        alternative architectures, and type-checking systems.
+                    </li>
+                </ul>
+
+                <h5 class="subsection-title">Developer Experience &amp; Internal Tooling</h5>
+                <ul>
+                    <li>
+                        Took ownership of improving developer experience (DX) by designing and maintaining internal tools,
+                        shared services, and engineering workflows;
+                    </li>
+                    <li>
+                        Maintained CI/CD pipelines using <strong>GitHub Actions</strong>, including integrations with Jenkins;
+                    </li>
+                    <li>
+                        Implemented and maintained API contract validation using Pact.io to ensure reliable
+                        service-to-service communication.
+                    </li>
+                </ul>
+
+                <h5 class="subsection-title">Observability &amp; Reliability</h5>
+                <ul>
+                    <li>
+                        Integrated and operated monitoring and error-tracking tools such as Sentry, Datadog, and New Relic;
+                    </li>
+                    <li>
+                        Improved system visibility, performance monitoring, and production issue diagnosis;
+                    </li>
+                    <li>
+                        Actively contributed to investigating and resolving complex production incidents.
+                    </li>
+                </ul>
+
+                <h5 class="subsection-title">Third-Party Integrations</h5>
+                <ul>
+                    <li>
+                        Led and implemented integrations with external systems and APIs, including <strong>Slack, Zendesk,
+                        Google Docs, BigQuery, and OpenAI</strong>;
+                    </li>
+                    <li>
+                        Ensured integrations were secure, resilient, and aligned with internal architectural standards.
+                    </li>
+                </ul>
+
+                <h4 class="section-title">Leadership &amp; Organizational Impact</h4>
+
+                <h5 class="subsection-title">Team Leadership &amp; Mentorship</h5>
+                <ul>
+                <li>
+                    Served as Scrum Master, facilitating agile ceremonies, improving team processes, and supporting
+                    predictable delivery;
+                </li>
+                <li>
+                    Acted as an interim Team Lead / Engineering Manager, providing technical guidance, mentoring,
+                    and day-to-day leadership support;
+                </li>
+                <li>
+                    Mentored engineers through code reviews, architectural discussions, and technical pairing.
+                </li>
+                </ul>
+
+                <h5 class="subsection-title">Hiring &amp; Talent Evaluation</h5>
+                <ul>
+                <li>
+                    Participated in technical interviews, evaluating candidates on system design,
+                    problem-solving ability, and engineering fundamentals;
+                </li>
+                <li>
+                    Contributed to maintaining a high engineering bar through structured feedback
+                    and hiring recommendations.
+                </li>
+                </ul>
+
+                <h5 class="subsection-title">Product &amp; Business Awareness</h5>
+                <ul>
+                <li>
+                    Worked closely with product managers and stakeholders to align technical decisions
+                    with business and product goals;
+                </li>
+                <li>
+                    Contributed to early-stage internal initiatives and startup-like projects with
+                    high visibility and strategic impact.
+                </li>
+                </ul>
 
 		        <div class="position-holder">
 		        	<h3 class="position"><strong>Back-End Engineer</strong> |</h3><img src="images/qaiware.png" width="100px" alt="Qaiware"/>
@@ -279,11 +392,15 @@
             </professional>
             <sidebar>
 				<h2>Side Projects</h2>
-				<p><strong><i class="fa-solid fa-list"></i> Golang CLI To-Do App:</strong><br/>
-				Since I want to transition to using Go, I decided to build a side project to train my skills on. I decided to do a variation of the standard intro project: To-Do app. It is a Command Line Interface tool. I decided to use Microsoft's <a href="https://learn.microsoft.com/en-us/graph/todo-concept-overview#api-reference" target="_blank">ToDo API</a> so the app is more full and diverse. You can read more and install it by following this <a href="http://github.com/betasve/mstd" target="_blank">install guide</a>.</p>
-				<p><strong><i class="fa-solid fa-link"></i> Hyperledger Contributions</strong><br/>
-					<a href="https://www.hyperledger.org/" target="_blank">Hyperledger</a> (or the Hyperledger Project) is an umbrella project of open source blockchains and related tools that the Linux Foundation[1] started in December 2015. IBM, Intel, and SAP Ariba have contributed to support the collaborative development of blockchain-based distributed ledgers. It was renamed the Hyperledger Foundation in October 2021.<br/>
-					I have some few minor contributions to the repo, but I spent considerable time looking into the Go code there, figuring out how the configuration and the architecture works.</p>
+				<p>
+                    <strong><i class="fa-solid fa-list"></i> Go-commerce App:</strong><br/>
+	    			A hobby project, using Go. It is intended to help me hone my skills developing distributed systems with Go.
+                    You can read more and install it by following this <a href="http://github.com/betasve/mstd" target="_blank">link</a>.
+                </p>
+				<p>
+                    <strong><i class="fa-solid fa-list"></i> Golang CLI To-Do App:</strong><br/>
+	    			Since I want to transition to using Go, I decided to build a side project to train my skills on. I decided to do a variation of the standard intro project: To-Do app. It is a Command Line Interface tool. I decided to use Microsoft's <a href="https://learn.microsoft.com/en-us/graph/todo-concept-overview#api-reference" target="_blank">ToDo API</a> so the app is more full and diverse. You can read more and install it by following this <a href="http://github.com/betasve/mstd" target="_blank">install guide</a>.
+                </p>
 			</sidebar>
         </section>
 
